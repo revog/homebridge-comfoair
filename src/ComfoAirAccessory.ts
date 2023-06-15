@@ -327,7 +327,7 @@ export class ComfoAirAccessory implements AccessoryPlugin {
     } else {
       if (this.info) {
         this.log.info('Got temperatures:');
-        this.log.info(response.toString());
+        this.log.info(response?.toString());
       }
 
       // characteristics
